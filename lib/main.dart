@@ -38,7 +38,7 @@ class _FirstDynamicState extends State<FirstDynamic> {
   _changeText() {
     setState(() {
       if (msg.startsWith('F')) {
-        msg = 'I have learned FlutterRaised example ';
+        msg = 'I have Change example ';
       } else {
         msg = 'Flutter RaisedButton example';
       }
